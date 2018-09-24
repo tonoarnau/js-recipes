@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import DangerButton from './components/DangerButton';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <p className="App-intro">
         Collection of js recipes for learning JS
         </p>
+        <DangerButton />
       </div>
     );
   }
